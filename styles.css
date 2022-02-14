@@ -11,3 +11,38 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+.number {
+  margin: 1rem;
+  font-size: 4rem;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: bold;
+  background: #fff;
+  padding: 0.5rem 1rem;
+  border: 2px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: translateY(2px);
+}
+
+.reset {
+  margin-left: 10px;
+  margin-right: 10px;
+}
